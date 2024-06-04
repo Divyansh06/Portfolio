@@ -32,7 +32,7 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
-  location.href = 'index.html'
+  location.href = '/'
 })
 
 const copyrightYear = document.getElementById('copyright_year').innerHTML(new Date().getFullYear());
