@@ -35,4 +35,5 @@ headerLogoConatiner.addEventListener('click', () => {
   location.href = '/'
 })
 
-const copyrightYear = document.getElementById('copyright_year').innerHTML(new Date().getFullYear());
+const copyrightYear = document.getElementById('copyright_year');
+copyrightYear.innerHTML = new Date().getFullYear();
